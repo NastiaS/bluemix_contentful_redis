@@ -4,6 +4,6 @@ applications:
 - path: .
   memory: 512M
   instances: 1
-  name: csDemo
-  host: csDemo
+  name: bluemix_contentful_redis
+  host: bluemix_contentful_redis
   disk_quota: 1024M
