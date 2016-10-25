@@ -1,0 +1,9 @@
+applications:
+- services:
+  - document-conversion-service
+- path: .
+  memory: 512M
+  instances: 1
+  name: csDemo
+  host: csDemo
+  disk_quota: 1024M
